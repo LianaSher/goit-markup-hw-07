@@ -45,11 +45,10 @@
 .projectList__overlay {
     position: absolute;
     @include font($fs: 18px, $lh: 28px);
-
+    min-height: 100%;
     color: var(--font-color-on-dark);
     background-color: rgba(33, 150, 243, 0.9);
     width: 100%;
-    min-height: 100%;
     top: 0;
     padding: 63px 24px;
     overflow: auto;
