@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     gap: 30px;
 }
-.rojectList__item {
+.projectList__item {
     flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .projectList__link {
@@ -52,7 +52,7 @@
     top: 0;
     padding: 63px 24px;
     overflow: auto;
-    transform: translate(0, 100%);
+    transform: translate(0, 101%);
     transition: transform var(--transition-dur-fanc);
     .projectList__link:hover &,
     .projectList__link:focus & {

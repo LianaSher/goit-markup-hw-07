@@ -36,11 +36,11 @@
     color: var(--font-color-on-dark);
     margin-bottom: 20px;
 }
-.futer__conteiner {
+.container--add {
     display: flex;
     align-items: baseline;
 }
-.futer__addressWrapper:not(:last-child) {
+.addressWrapper:not(:last-child) {
     margin-right: 70px;
 }
 
