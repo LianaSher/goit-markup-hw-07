@@ -1,4 +1,4 @@
-.futer__logo {
+.logo--inFooter {
     margin-bottom: 20px;
     margin-right: 0;
     display: block;
@@ -30,7 +30,7 @@
     transition: color var(--transition-dur-fanc);
 }
 
-.futer__subtitle {
+.footer__subtitle {
     @include font($fw: 700, $lh: 16.41px);
     text-transform: uppercase;
     color: var(--font-color-on-dark);
@@ -54,7 +54,7 @@
 .networks__link:focus {
     background-color: var(--color-selected);
 }
-.futer__networksWrapper {
+.footer__networksWrapper {
     margin-right: 93px;
 }
 .subscription__offer {
